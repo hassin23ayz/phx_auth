@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :phx_auth, PhxAuth.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "phx_auth",
+  password: "auth_phx",
   database: "phx_auth_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
