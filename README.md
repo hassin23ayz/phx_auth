@@ -25,5 +25,11 @@ $ mix ecto.migrate
 
 $ iex -S mix phx.server 
 
+> register an user 
+
+after login -> One browser = One user : 2 users cannot be present in the same browser 
+
+the password inputted by user is not persisted in DB. The Hash(by-bycrypt) of the password gets persisted 
+
 
 

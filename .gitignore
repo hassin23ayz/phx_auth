@@ -32,3 +32,8 @@ phx_auth-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# ignore callgraph images
+*.dot
+*.dot.svg
+
+
